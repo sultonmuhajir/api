@@ -1,12 +1,11 @@
 // getJson
-$.getJSON("https://feriirawan-api.herokuapp.com/list/symbols/province/150", function (data) {
+$.getJSON("https://sultonmuhajir.github.io/tenses/assets/tenses.json", function (data) {
    console.log(data);
 });
 
-
 // Ajax
 $.ajax({
-   url: "https://feriirawan-api.herokuapp.com/list/symbols/province/150",
+   url: "https://sultonmuhajir.github.io/tenses/assets/tenses.json",
    success: function (data) {
       console.log(data);
    },
