@@ -1,4 +1,5 @@
 <?php 
+
    // getContents
    $contents = file_get_contents("https://sultonmuhajir.github.io/tenses/assets/tenses.json");
    $data = json_decode($contents, true);
@@ -12,4 +13,5 @@
    curl_close($curl);
    $data = json_decode($exec, true);
    print_r($data);
+   
 ?>
